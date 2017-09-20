@@ -1,0 +1,69 @@
+#center {
+    width:50vw;
+    height:60vh;
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    margin:auto;
+}
+
+#ctop{
+    height:70%;
+    width:100%;
+    
+}
+
+#ctopleft{
+    height:100%;
+    width:30%;
+    display:inline-block;
+}
+
+#ctopright{
+    height:100%;
+    width:60%;
+    display:inline-block;
+    overflow: auto;
+    border-left:3px solid rgb(120,120,120);
+    padding-left:10px;
+    margin-left:10px;
+}
+
+#cbot {
+    width:100%;
+    height:30%;
+}
+
+#bigImg {
+    height:100%;
+    /*height:auto;*/
+    /*Added width parameter to keep the image's width within the alotted space for ctopleft so it doesn't overlap with the contents of ctopright.*/
+    width:100%;
+}
+
+.thumbs {
+    height:70px;
+    /*padding:5px;*/
+    width:auto;
+    /*Uses margin instead so the left side of the first image lines up with the left side of the big image*/
+    margin-right: 5px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+#background {
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    left:0;
+    top:0;
+    background-image:url(img/bg.jpg);
+    background-size:cover;
+}
+
+
+#ctoptitle, #ctoppara {
+    color:rgb(70,70,70);
+}
